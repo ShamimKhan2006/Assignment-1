@@ -179,3 +179,41 @@ nav .navber{
     border: none;
     
 }
+.article{
+    margin: 300px  120px 120px 120px;
+}
+
+.article .blog-container{
+    display: flex;
+    max-width: 1950px;
+    width: 80%;
+    margin: 0 auto;
+    gap: 60px;
+    margin-bottom: 20px;
+
+}
+.blog-container .child-2{
+}
+.blog-container .child-2 h4{
+    color: #30B868;
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding-top: 20px;
+}
+.blog-container .child-2 h1{
+     font-size: 48px;
+     font-weight: bold;
+     font-family: "Roboto", sans-serif;
+}
+.blog-container .child-2 p{ 
+  color:#627382;
+  margin-top: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.child-2 .icon{
+    background-image: url(assets/CheckCircle.png);
+    background-position:left;
+    background-repeat: no-repeat;
+}
